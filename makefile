@@ -1,9 +1,9 @@
 .PHONY: build tidy docker test clean vendor
 
 # change the following boolean flag to enable or disable the Full RELRO (RELocation Read Only) for linux ELF (Executable and Linkable Format) binaries
-ENABLE_FULL_RELRO:="true"
+ENABLE_FULL_RELRO:="false"
 # change the following boolean flag to enable or disable PIE for linux binaries which is needed for ASLR (Address Space Layout Randomization) on Linux, the ASLR support on Windows is enabled by default
-ENABLE_PIE:="true"
+ENABLE_PIE:="false"
 
 # VERSION file is not needed for local development, In the CI/CD pipeline, a temporary VERSION file is written
 # if you need a specific version, just override below
