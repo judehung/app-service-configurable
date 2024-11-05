@@ -11,8 +11,8 @@ require (
 	github.com/eclipse/paho.mqtt.golang v1.5.0 // indirect
 	github.com/edgexfoundry/go-mod-bootstrap/v4 v4.0.0-dev.2 // indirect
 	github.com/edgexfoundry/go-mod-configuration/v4 v4.0.0-dev.3 // indirect
-	github.com/edgexfoundry/go-mod-core-contracts/v4 v4.0.0-dev.2 // indirect
-	github.com/edgexfoundry/go-mod-messaging/v4 v4.0.0-dev.3 // indirect
+	github.com/edgexfoundry/go-mod-core-contracts/v4 v4.0.0-dev.3 // indirect
+	github.com/edgexfoundry/go-mod-messaging/v4 v4.0.0-dev.5 // indirect
 	github.com/edgexfoundry/go-mod-registry/v4 v4.0.0-dev.2 // indirect
 	github.com/edgexfoundry/go-mod-secrets/v4 v4.0.0-dev.2 // indirect
 	github.com/fxamacker/cbor/v2 v2.7.0 // indirect
@@ -23,7 +23,6 @@ require (
 	github.com/go-playground/locales v0.14.1 // indirect
 	github.com/go-playground/universal-translator v0.18.1 // indirect
 	github.com/go-playground/validator/v10 v10.22.1 // indirect
-	github.com/go-redis/redis/v7 v7.3.0 // indirect
 	github.com/golang-jwt/jwt v3.2.2+incompatible // indirect
 	github.com/gomodule/redigo v2.0.0+incompatible // indirect
 	github.com/google/uuid v1.6.0 // indirect
@@ -67,6 +66,6 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/edgexfoundry/app-functions-sdk-go/v4 => github.com/judehung/app-functions-sdk-go/v4 v4.0.0-20241105075033-1405446cfd33
+replace github.com/edgexfoundry/app-functions-sdk-go/v4 => github.com/judehung/app-functions-sdk-go/v4 v4.0.0-20241105095209-62159dbd277d
 
 replace github.com/edgexfoundry/go-mod-bootstrap/v4 => github.com/judehung/go-mod-bootstrap/v4 v4.0.0-20241105061404-aed124c70cea
